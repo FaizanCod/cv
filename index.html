@@ -4,59 +4,81 @@
 <head>
   <meta charset="utf-8">
   <title>Faizan's Personal Site</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <!--  <style>
+    body {
+      background-color: #E8FFFF;
+    }
+
+    hr {
+      border-style: none;
+      border-top-style: dotted;
+      border-color: grey;
+      border-width: 5px;
+      width: 5%;
+    }
+
+  </style>
+example of internal css-->
+
 </head>
 
 <body>
-  <table cellspacing="20">
-    <td><img src="Faizan profile-modified.png" alt="Faizan Profile Picture"></td>
+  <table class="top" cellspacing="20">
+    <td><img src="Faizan profile.jpeg" alt="Faizan Profile Picture"></td>
     <td>
-      <h1>Faizan Choudhary</h1>
-      <p><em>Student at <strong><a href="https://www.jmi.ac.in/">Jamia Millia Islamia</a></strong>.</em></p>
-      <p>I currently live in Navi Mumbai, a city on the outskirts of Mumbai.</p>
+      <h1 id="name">Faizan Choudhary</h1>
+      <p><em>Student at <strong><a class="link" href="https://www.jmi.ac.in/">Jamia Millia Islamia</a></strong>.</em></p>
+      <p><strong>Secretary, IEEE Computer Society-JMI</strong></p>
     </td>
   </table>
-  <hr size="3" noshade>
+  <hr size="3">
   <h3>Education</h3>
-  <ul>
-    <li>Elementary education in <a href="http://www.sterlingschoolnerul.org/">Sterling School, Nerul</a>.</li>
-    <li>Junior College in <a href="https://www.apeejay.edu/nerul/">Apeejay School, Nerul</a>.</li>
+  <ul class="list">
+    <li>Elementary education in <a class="link" href="http://www.sterlingschoolnerul.org/">Sterling School, Nerul</a>.</li>
+    <li>Junior College in <a class="link" href="https://www.apeejay.edu/nerul/">Apeejay School, Nerul</a>.</li>
     <li>Pursuing B.Tech. in Computer Engineering in JMI, Delhi.</li>
   </ul>
   <h3>Year-wise Education</h3>
-  <table cellspacing="10">
-    <thead>
+  <table class="table" cellspacing="10">
+    <thead style="text-decoration: underline">
       <tr>
         <th>Year</th>
         <th>Education</th>
         <th>Highest degree received</th>
+        <th>Institution</th>
       </tr>
     </thead>
-    <tbody>
+    <tbody class="edu-body">
       <tr>
         <td>2006-2008</td>
         <td>Pre-Primary</td>
         <td>-</td>
+        <td>Sterling School, Nerul</td>
       </tr>
       <tr>
         <td>2008-2018</td>
         <td>Primary and Secondary</td>
         <td>Matriculation</td>
+        <td>Sterling School, Nerul</td>
       </tr>
       <tr>
         <td>2018-2020</td>
         <td>Senior Secondary</td>
         <td>Pre Graduation</td>
+        <td>Apeejay School, Nerul</td>
       </tr>
       <tr>
         <td>2020-2024</td>
         <td>Bachelor Of Technology</td>
         <td>Graduation</td>
+        <td>Jamia Millia Islamia, New Delhi</td>
       </tr>
     </tbody>
   </table>
-  <hr size="3" noshade>
+  <hr size="3">
   <h3>Skills</h3>
-  <table cellspacing="10">
+  <table class="table" cellspacing="10">
     <tr>
       <td>Decision Making</td>
       <td>⭐⭐⭐⭐⭐</td>
@@ -79,9 +101,11 @@
     </tr>
   </table>
   <!--or use <table> inside <tr> having 2 <td>'s each</td></table> -->
-  <hr size="3" noshade>
-  <a href="hobbies.html">My Hobbies</a>
-  <a href="contact.html">Contact details</a>
+  <hr size="3">
+  <a class="link foot" href="hobbies.html">My Hobbies</a>
+  <a class="link foot" href="contact.html">Contact details</a>
+  <br>
+  <!--<a href="#">Go to the top</a>-->
   <!--  <img src="C:\Users\91720\Downloads\faizan sign.jpeg" alt="Faizan Sign"> -->
 </body>
 
