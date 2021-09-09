@@ -1,0 +1,93 @@
+/**********************TAG SELECTORS*******************/
+body {
+  background-color: #E4F9F5;
+}
+
+hr {
+  border-color: black;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 5%;
+}
+
+h1 {
+  color: #30E3CA;
+  font-family: "Century Gothic";
+  font-size: 38px;
+  text-shadow: 2px 2px black;
+}
+
+h3 {
+  color: #11999E;
+  font-family: "Dubai";
+  font-size: 25px;
+  text-align: center;
+  /*text-decoration: underline;*/
+}
+
+img {
+  border-radius: 100%;
+  height: 175px;
+  width: 175px;
+}
+
+img:hover {
+  border-radius: 50%;
+  transition: height width .5s;
+  height: 200px;
+  width: 200px;
+}
+
+/**********************CLASS SELECTORS*******************/
+
+.edu-body {
+  text-align: center;
+}
+
+.foot {
+  display: inline-block;
+  font-family: "Dubai";
+  font-size: 20px;
+  margin: 0;
+  text-align: center;
+  width: 49%;
+}
+
+.link:hover {
+  background-color: aquamarine;
+  transition: background-color .5s;
+}
+
+.list {
+  text-align: center;
+  list-style-position: inside;
+} /*for the bullets to be in center with the content*/
+
+.table {
+  border-color: black;
+  border-style: solid;
+  margin-left: 12%;
+  margin-right: 12%;
+  width: 75%;
+}
+
+.table:hover {
+  background-color: white;
+}
+
+.top {
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+}
+
+/**********************ID SELECTORS*******************/
+#name:hover {
+  font-size: 42px;
+  text-shadow: 2px 2px grey;
+}
+
+/*#skills:hover {
+  background-color: white;
+}*/
